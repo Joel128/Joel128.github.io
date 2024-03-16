@@ -1,0 +1,45 @@
+---
+import LinkedInIcon from "@/components/icons/LinkedIn.astro";
+import Badge from "@/components/Badge.astro";
+import MailIcon from "@/components/icons/Mail.astro";
+import SocialPill from "@/components/SocialPill.astro";
+---
+
+<div class="max-w-x1">
+  <div class="flex gap-4 mb-4">
+    <img
+      class="rounded-fuull shadow-lg size-16"
+      src="/profile.jpg"
+      alt="Profile picture"
+    />
+    <a
+      href="https://www.linkedin.com/in/joelplazadi"
+      target="_blank"
+      rel="noopener"
+      class="flex items-center transition md:justify-center md:hover:scale-105"
+    >
+      <Badge>Disponible para trabajar</Badge>
+    </a>
+  </div>
+  <h1
+    class="text-3xl front-bold tracking-tight text-gray-800 sm:text-5xl dark:text-white"
+  >
+    Hey, soy Joel Plaza
+  </h1>
+  <p
+    class="mt-6 text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:front-semibold dark:text-gray-300"
+  >
+    Poner Algo de estudios rollo Futuro Ingeniero de Software, de donde eres.
+  </p>
+
+  <nav class="flex flex-wrap gap-4 mt-8">
+    <SocialPill href="mailto:joelplazadi@gmail.com">
+      <MailIcon class="size=4" />
+      Contactame
+    </SocialPill>
+    <SocialPill href="https://www.linkedin.com/in/joelplazadi">
+      <LinkedInIcon class="size=4" />
+      LinkedIn
+    </SocialPill>
+  </nav>
+</div>
