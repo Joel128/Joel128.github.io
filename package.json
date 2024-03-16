@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "packageManager": "yarn"
+    "prepare": "husky"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.9",
@@ -19,5 +19,9 @@
     "jekyll": "^3.0.0-beta1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "prettier": "^3.2.5"
   }
 }
