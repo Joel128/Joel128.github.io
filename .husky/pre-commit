@@ -1,1 +1,1 @@
-echo ejecutando este codigo antes de hacer el commit
+npm run prettier

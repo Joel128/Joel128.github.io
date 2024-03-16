@@ -1,23 +1,23 @@
 ---
-import ExperienceItem from "./ExperienceItem.astro";
+import ExperienceItem from './ExperienceItem.astro';
 
 const EXPERIENCE = [
-  {
-    date: "2019-2020",
-    title: "Desarrollador FullStack",
-    company: "Ectarc",
-    description: "Desarrolle junto a mi compañero, el proyecto Ectarc Web.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
+    {
+        date: '2019-2020',
+        title: 'Desarrollador FullStack',
+        company: 'Ectarc',
+        description: 'Desarrolle junto a mi compañero, el proyecto Ectarc Web.',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+    },
 ];
 ---
 
 <ol class="relative mt-16">
-  {
-    EXPERIENCE.map((experience) => (
-      <li class="">
-        <ExperienceItem {...experience} />
-      </li>
-    ))
-  }
+    {
+        EXPERIENCE.map(experience => (
+            <li class="">
+                <ExperienceItem {...experience} />
+            </li>
+        ))
+    }
 </ol>

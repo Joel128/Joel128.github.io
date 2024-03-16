@@ -1,15 +1,14 @@
 export interface NavigationItem {
-  /**
-   * 
-   */
-  name: string;
-  /**
-   *  
-   */
-  href: string;
-  /**
-   * 
-   */
-  url?: string;
-
+    /**
+     *
+     */
+    name: string;
+    /**
+     *
+     */
+    href: string;
+    /**
+     *
+     */
+    url?: string;
 }

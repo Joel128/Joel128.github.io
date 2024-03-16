@@ -8,7 +8,8 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "prepare": "husky"
+    "prepare": "husky",
+    "prettier": "prettier -w ./**/*.{astro,js,ts,md} --plugin=prettier-plugin-astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.5.9",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "husky": "^9.0.11",
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0"
   }
 }
