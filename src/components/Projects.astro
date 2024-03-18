@@ -8,6 +8,10 @@ import Tailwind from '@/components/icons/Tailwind.astro';
 import GitHub from '@/components/icons/GitHub.astro';
 import LinkButton from './LinkButton.astro';
 import Link from '@/components/icons/Link.astro';
+
+import TypeScript from '@/components/icons/TypeScript.astro';
+
+
 const TAGS = {
     NODE: {
         name: 'Node.js',
@@ -39,21 +43,26 @@ const TAGS = {
         class: 'bg-black text-white',
         icon: Bootstrap,
     },
+    TypeScript: {
+        name: 'TypeScript',
+        class: 'bg-black text-white',
+        icon: TypeScript,
+    },
 };
 const PROJECTS = [
     {
-        title: 'Portfolio',
-        description: 'Portfolio de Joel',
-        link: 'https://github.com/joelplazadi/Portfolio',
-        github: 'https://github.com/joelplazadi/Portfolio',
+        title: 'Arkanoid',
+        description: 'Arkanoid en 2D',
+        link: '/',
+        github: 'https://github.com/Joel128/arkanoid',
         image: '/portfolio.png',
-        tags: [TAGS.REACT, TAGS.TAILWIND],
+        tags: [TAGS.TypeScript],
     },
     {
         title: 'Ectarc Web',
         description: 'Ectarc Web',
         link: 'https://www.ectarc.com',
-        github: 'https://github.com/joelplazadi/ectarc-web',
+        github: 'https://github.com/Joel128/ectarc-web',
         image: './projectImg/Ectarc.PNG',
         tags: [TAGS.JQUERY, TAGS.HTML, TAGS.BOOTSTRAP],
     },
